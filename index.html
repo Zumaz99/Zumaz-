@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dubai Cloud Kitchen</title>
+<style>
+  /* Basic Reset */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff8f0;
+    color: #3b2a14;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(45deg, #a56c33, #d9b382);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-family: 'Georgia', serif;
+  }
+  header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fffdf6;
+    text-shadow: 1px 1px 5px #5a3e0f;
+  }
+  nav {
+    margin-top: 1rem;
+  }
+  nav a {
+    color: #fffdf6;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .hero {
+    background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1050&q=80') no-repeat center/cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fffdf6;
+    text-shadow: 2px 2px 6px #000;
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0 1rem;
+  }
+  .content {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  .intro-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.8rem;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 1.6rem;
+  }
+  .menu-item {
+    background: #fdf6e3;
+    border: 2px solid #d9b382;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 1px 1px 6px #c8a055;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .menu-item h3 {
+    font-family: 'Georgia', serif;
+    color: #a56c33;
+    margin-bottom: 0.6rem;
+  }
+  .menu-item p {
+    font-size: 0.95rem;
+    color: #5a442a;
+    margin-bottom: 0.8rem;
+  }
+  .menu-item button {
+    background: #a56c33;
+    color: #fffdf6;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .menu-item button:hover {
+    background: #d9b382;
+    color: #3b2a14;
+  }
+  footer {
+    background: #a56c33;
+    color: #fffdf6;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Dubai Cloud Kitchen</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  Flavors of Tradition, Cooked for Today
+</section>
+
+<section class="content" id="home">
+  <p class="intro-text">
+    Welcome to Dubai Cloud Kitchen — where ancient Emirati flavors meet modern culinary art. Experience our curated menu crafted with love and heritage, delivered fresh
